@@ -2,6 +2,11 @@
 #include <uCobegin.h>
 using namespace std;
 
+/*
+The goal of this program is to demonstrate how Monitors provide impmlicit mutual exlclusion
+where regular classes do not
+*/
+
 // Counter implemented with no locking (no mutual exclusion)
 class Counter {
     int counter;
